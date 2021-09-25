@@ -1,1 +1,1 @@
-# ToyProject-MatrixMultiplicationVisualizer
+MatrixMultiplicationVisualizer
