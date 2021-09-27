@@ -1,0 +1,29 @@
+@import "../../_variables.scss";
+
+.cell {
+  padding: 0.4rem;
+  width: 2rem;
+  border: 0;
+  background: 0;
+  text-align: center;
+  border-radius: 0.2rem;
+  transition: 0.3s;
+}
+
+.cell.default {
+  outline: 0.1rem solid #0000;
+}
+.cell.default:focus {
+  outline: 0.1rem solid $feldgrau;
+  transition: 0.3s;
+}
+
+.cell.error {
+  outline: 0.1rem solid $brick-red;
+  color: $brick-red;
+}
+
+.cell.highlight {
+  background-color: $onyx;
+  color: $unbleached-silk;
+}
